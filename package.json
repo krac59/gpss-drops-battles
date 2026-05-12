@@ -1,0 +1,8 @@
+﻿{
+  "name": "dropbot",
+  "version": "1.0.0",
+  "scripts": {
+    "build:all": "cd backend && npm install && cd ../frontend && npm install && npm run build && cd ../backend && npx prisma generate",
+    "start:prod": "cd backend && npm run start:prod"
+  }
+}
